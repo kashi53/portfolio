@@ -110,7 +110,7 @@ html {
   width: 42px;
   height: 42px;
   line-height: 42px;
-  margin: 40px, 5px;
+  margin: 40px, 5px;  
   font-size: 20px;
   transition: .8s;
 }
@@ -184,7 +184,7 @@ html {
 .aboutme .fila .col .container-interests .interests{
   width: 100px;
   height: 100px;
-  background-color: #252a2e;
+  background-color: #141614;
   border-radius: 10px;
   margin: 0 15px 15px 0;
   display: flex;
@@ -226,7 +226,7 @@ width: 100%;
 }
 /* Skills*/
 .skills{
-  background-color: #252a2e;
+  background-color: #141614;
   color: #fff;
   padding: 10px 5px;
 
@@ -419,18 +419,18 @@ width: 100%;
   margin-bottom: 25px;
 }
 .curriculum .fila .left{
-  border-right: 2px solid #252a2e;
+  border-right: 2px solid #141614;
 
 }
 .curriculum .fila .right{
-  border-left: 2px solid #252a2e;
+  border-left: 2px solid #141614;
   
 }
 
 .curriculum .fila .item{
   padding: 25px;
   margin-bottom: 30px;
-  background-color: #252a2e;
+  background-color: #141614;
   position: relative;
 }
 .curriculum .fila .item h4{
@@ -504,7 +504,7 @@ line-height: 24px;
 /* Portfolio */ 
 
 .portfolio{
-  background-color: #252a2e;
+  background-color: #141614;
   color: #fff;
   padding: 50px 20px;
 
