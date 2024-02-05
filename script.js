@@ -33,3 +33,4 @@ function effectSkill(){
 window.onscroll = function(){
     effectSkill();
 }
+
