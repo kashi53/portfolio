@@ -320,7 +320,7 @@ width: 100%;
 
 .skills .skills .wordpress{
   width: 0%;
-  animation: 2s javascript forwards;
+  animation: 2s wordpress forwards;
 }
 @keyframes wordpress {
   0%{width: 0%;}
@@ -331,7 +331,7 @@ width: 100%;
 
 .skills .skills .premierepro{
   width: 0%;
-  animation: 2s javascript forwards;
+  animation: 2s premierepro forwards;
 }
 @keyframes premierepro {
   0%{width: 0%;}
@@ -341,7 +341,7 @@ width: 100%;
 
 .skills .skills .comunication{
   width: 0%;
-  animation: 2s javascript forwards;
+  animation: 2s comunication forwards;
 }
 @keyframes comunication {
   0%{width: 0%;}
@@ -350,7 +350,7 @@ width: 100%;
 
 .skills .skills .teamwork{
   width: 0%;
-  animation: 2s javascript forwards;
+  animation: 2s teamwork forwards;
 }
 @keyframes teamwork {
   0%{width: 0%;}
@@ -360,7 +360,7 @@ width: 100%;
 
 .skills .skills .creative{
   width: 0%;
-  animation: 2s javascript forwards;
+  animation: 2s creative forwards;
 }
 @keyframes creative {
   0%{width: 0%;}
@@ -369,7 +369,7 @@ width: 100%;
 
 .skills .skills .dedication{
   width: 0%;
-  animation: 2s javascript forwards;
+  animation: 2s dedication forwards;
 }
 @keyframes dedication {
   0%{width: 0%;}
@@ -377,7 +377,7 @@ width: 100%;
 }
 .skills .skills .projectm{
   width: 0%;
-  animation: 2s javascript forwards;
+  animation: 2s projectm forwards;
 }
 @keyframes projectm {
   0%{width: 0%;}
@@ -709,8 +709,10 @@ footer .arriba{
     border-bottom: 1px solid #fff;
     padding: 10px 0;
   }
+
 }
 @media screen and (max-width:700px) {
+  
   .aboutme .fila{
     display: block;
   }
@@ -753,4 +755,5 @@ footer .arriba{
   .contacto .fila .col{
     width: 100%;
   }
+
 }
