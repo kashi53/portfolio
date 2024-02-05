@@ -263,7 +263,7 @@ width: 100%;
 .skills .skills .barra-skill{
   height: 8px;
   width: 80%;
-  background-color: #131517;
+  background-color: #616961;
   position: relative;
   margin-bottom: 30px;
 
@@ -299,7 +299,7 @@ width: 100%;
 
 .skills .skills .htmlcss{
   width: 0%;
-  animation: 2s javascript forwards;
+  animation: 2s htmlcss forwards;
 }
 @keyframes htmlcss {
   0%{width: 0%;}
@@ -310,7 +310,7 @@ width: 100%;
 
 .skills .skills .photoshop{
   width: 0%;
-  animation: 2s javascript forwards;
+  animation: 2s photoshop forwards;
 }
 @keyframes photoshop {
   0%{width: 0%;}
@@ -593,7 +593,7 @@ line-height: 24px;
   padding: 18px;
   border: none;
   margin-bottom: 20px;
-  background-color: #252A2E;
+  background-color: rgba(17, 18, 18, 0.8);
   color: #fff;
   font-size: 18px;
 }
@@ -683,4 +683,74 @@ footer .arriba{
   border-radius: 50%;
   line-height: 50px;
   font-size: 18px;
+}
+
+/* Responsive */
+@media screen and (max-width:980px){
+  nav{
+    display: none;
+  }
+  .nav-responsive{
+    display: block;
+  }
+  nav.responsive{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 75px;
+    background-color: #141614;
+    width: 180px;
+  }
+  nav.responsive ul{
+    display: block !important ;
+
+  }
+  nav.responsive ul li{
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+  }
+}
+@media screen and (max-width:700px) {
+  .aboutme .fila{
+    display: block;
+  }
+  .aboutme .fila .col{
+    width: fit-content;
+  }
+  .skills .fila {
+    display: block;
+  }
+  .skills .fila .col{
+    width: 100%;
+  }
+  .skills .fila .col .barra-skill{
+    width: 100%;
+  }
+  .curriculum .fila{
+    display: block;
+  }
+  .curriculum .fila .right{
+    margin-left: 20px;
+  }
+  .curriculum .fila .col{
+    width: 90%;
+  }
+  .portfolio .galeria{
+    display: block;
+    width: 100%;
+
+  }
+  .portfolio .galeria .proyecto{
+    max-width: 100;
+  }
+  .portfolio .galeria .proyecto img{
+    width: 100%;
+
+  }
+  .contacto .fila{
+    display: block;
+  }
+  .contacto .fila .col{
+    width: 100%;
+  }
 }
