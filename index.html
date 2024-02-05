@@ -22,15 +22,15 @@
         </div>
         <nav id="nav">
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#aboutme">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#curriculum">Curriculum</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" onclick="select()">Home</a></li>
+            <li><a href="#aboutme" onclick="select()">About Me</a></li>
+            <li><a href="#skills" onclick="select()">Skills</a></li>
+            <li><a href="#curriculum" onclick="select()">Curriculum</a></li>
+            <li><a href="#portfolio" onclick="select()">Portfolio</a></li>
+            <li><a href="#contact" onclick="select()">Contact</a></li>
           </ul>
         </nav>
-        <div class="nav-responsive">
+        <div class="nav-responsive" onclick="showHideMenu()">
           <i class="fa-solid fa-bars"></i>
         </div>
       </header>
@@ -38,7 +38,7 @@
     <!-- Home section-->
     <section id="home" class="home">
       <div class="container-banner">
-        <!--<div class="container-img"><img src="/img/hero.png" alt="" /></div>-->
+        <div class="container-img"><img src="/img/logo34.png" alt="" /></div>
         <h1>Joel Suarez</h1>
         <h2>Full Stack Developer Junior | Content Editor</h2>
         <div class="social">
@@ -349,7 +349,7 @@
     <!--Contact-->
     <section id="contacto" class="contacto">
       <div class="contenido-seccion">
-          <h2>CONTACTO</h2>
+          <h2>Contact Me</h2>
           <div class="fila">
               <!-- Formulario -->
               <div class="col">
@@ -397,5 +397,6 @@
       <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
     </div>
   </footer>
+  <script src="/script.js"></script>
   </body>
 </html>
