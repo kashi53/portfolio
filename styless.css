@@ -120,7 +120,7 @@ html {
 }
 
 .aboutme{
-  background-color: #0D0E0D;
+  background-color: #282828;
   color: #fff;
   padding: 50px 20px;
 
@@ -226,7 +226,7 @@ width: 100%;
 }
 /* Skills*/
 .skills{
-  background-color: #141614;
+  background-color: #141414;
   color: #fff;
   padding: 10px 5px;
 
@@ -513,7 +513,6 @@ line-height: 24px;
 .portfolio .container-section{
   max-width: 1100px;
   margin: auto;
-
 }
 .portfolio h2{
   font-size: 48px;
